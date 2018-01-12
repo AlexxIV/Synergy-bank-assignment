@@ -1,0 +1,7 @@
+<div class="details">
+    <div class="address">Address: {{$ctrl.client.streetAddress}}</div>
+    <div class="date">Date Of Client Initiation: {{$ctrl.client.dateOfClientInitiation}}</div>
+    <div class="btn-holder">
+        <button class="btn-danger btn-sm" ui-sref="clients.client({ clientId: $ctrl.client.id })">Close</button>
+    </div>
+</div>

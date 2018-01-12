@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="details">
+        <div>First Name: {{$ctrl.client.firstName}}</div>
+        <div>Middle Name: {{$ctrl.client.middleName}}</div>
+        <div>Last Name: {{$ctrl.client.lastName}}</div>
+        <div>Money Balance: {{$ctrl.client.moneyBalance}}</div>
+        <div class="label">Cards: </div>
+        <div class="noCards" ng-if="$ctrl.client.cards <= 0">The client does not have any bank cards !</div>
+        <div class="cards" ng-repeat="card in $ctrl.client.cards">{{card.name}}</div>
+        <div class="btn-holder">
+            <button class="btn-danger btn-sm" ui-sref="clients">Close</button>
+            <button class="btn-warning btn-sm" ui-sref="clients.client.private({ clientId: $ctrl.client.id })">Private</button>
+        </div>
+    </div>
+        <ui-view></ui-view>
+</div>

@@ -1,0 +1,39 @@
+.table {
+  margin: 10px; }
+
+.active {
+  color: orange;
+  font-weight: bold;
+  background-color: #F2F2F2; }
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start; }
+  .container .clients {
+    width: 90%;
+    margin: 0 auto; }
+
+.details {
+  width: 250px;
+  background-color: #F2F2F2;
+  margin: 10px;
+  border: 2px solid orange;
+  border-radius: 10px; }
+  .details .label {
+    font-weight: bold; }
+  .details .noCards {
+    font-style: italic; }
+  .details .cards {
+    padding: 0 30px;
+    font-weight: bold;
+    font-style: italic; }
+  .details .btn-holder {
+    text-align: center; }
+    .details .btn-holder button {
+      padding: 0 25px; }
+  .details div {
+    margin: 5px;
+    padding: 0 5px; }
+
+/*# sourceMappingURL=style.css.map */

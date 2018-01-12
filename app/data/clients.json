@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "firstName": "Ivan",
+    "middleName": "Georgiev",
+    "lastName": "Petrov",
+    "streetAddress": "RandomAddress, Bulgaria",
+    "dateOfClientInitiation": "05.07.2007",
+    "moneyBalance": 547.12,
+    "cards" : [
+      {
+        "name": "Visa"
+      },
+      {
+        "name": "Master Card"
+      }
+    ]
+
+  },
+  {
+    "id": "2",
+    "firstName": "Todor",
+    "middleName": "Petrov",
+    "lastName": "Todorov",
+    "streetAddress": "Sofia, Bulgaria",
+    "dateOfClientInitiation": "09.02.2017",
+    "moneyBalance": 2547.00,
+    "cards" : [
+      {
+        "name": "Visa"
+      },
+      {
+        "name": "Master Card"
+      },
+      {
+        "name": "Maestro"
+      }
+    ]
+
+  },
+  {
+    "id": "3",
+    "firstName": "Alex",
+    "middleName": "Viktorov",
+    "lastName": "Ivanov",
+    "streetAddress": "Plovdiv, Bulgaria",
+    "dateOfClientInitiation": "15.08.2012",
+    "moneyBalance": 147.00,
+    "cards" : [
+      {
+        "name": "Visa"
+      }
+    ]
+
+  },
+  {
+    "id": "4",
+    "firstName": "Maria",
+    "middleName": "Atanasov",
+    "lastName": "Petrova",
+    "streetAddress": "Sofia, Bulgaria",
+    "dateOfClientInitiation": "05.07.2001",
+    "moneyBalance": 7.25,
+    "cards" :
+    []
+
+  },
+  {
+    "id": "5",
+    "firstName": "Angel",
+    "middleName": "Ivanov",
+    "lastName": "Kirilov",
+    "streetAddress": "Plovdiv, Bulgaria",
+    "dateOfClientInitiation": "15.01.2009",
+    "moneyBalance": 677.20,
+    "cards" :
+    []
+
+  },
+  {
+    "id": "6",
+    "firstName": "Simeon",
+    "middleName": "Manolov",
+    "lastName": "Borilov",
+    "streetAddress": "Plovdiv, Bulgaria",
+    "dateOfClientInitiation": "01.01.2016",
+    "moneyBalance": 96547.90,
+    "cards" :
+    [
+      {
+        "name": "Visa"
+      },
+      {
+        "name": "Master Card"
+      }
+    ]
+
+  }
+]

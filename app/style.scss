@@ -1,0 +1,49 @@
+$greyColor: #F2F2F2;
+
+.table {
+  margin:10px;
+}
+.active {
+  color: orange;
+  font-weight: bold;
+  background-color: $greyColor;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+
+  .clients {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.details {
+  width: 250px;
+  background-color: $greyColor;
+  margin: 10px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  .label {
+    font-weight: bold;
+  }
+  .noCards {
+    font-style: italic;
+  }
+  .cards {
+    padding: 0 30px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .btn-holder{
+    text-align: center;
+    button {
+      padding: 0 25px;
+    }
+  }
+  div {
+    margin:5px;
+    padding:0 5px;
+  }
+}
