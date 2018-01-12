@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="clients">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+                <th>Money Balance</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="client in $ctrl.clients" ui-sref-active="active" ui-sref="clients.client({ clientId: client.id })">
+                <td>{{client.firstName}}</td>
+                <td>{{client.middleName}}</td>
+                <td>{{client.lastName}}</td>
+                <td>{{client.moneyBalance}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <ui-view></ui-view>
+</div>

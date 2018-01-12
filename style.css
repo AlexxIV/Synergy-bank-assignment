@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start; }
+  .container .clients {
+    width: 90%;
+    margin: 0 auto; }
+
+.details {
+  width: 400px; }
+
+/*# sourceMappingURL=style.css.map */
